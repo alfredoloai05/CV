@@ -22,7 +22,7 @@ for(var x = 0; x <links.length;x++){
 
 //Creo las barritas de una barra particular identificada por su id
 function crearBarra(id_barra){
-    for(i=0;i<=16;i++){
+    for(i=0;i<=22;i++){
         let div = document.createElement("div");
         div.className = "e";
         id_barra.appendChild(div);
@@ -62,28 +62,28 @@ function efectoHabilidades(){
     if(distancia_skills>=300 && entro==false){
         entro = true;
         const intervalC = setInterval(function(){
-            pintarBarra(C, 13, 0, intervalC);
+            pintarBarra(C, 19, 0, intervalC);
         },100);
         const intervalJavascript = setInterval(function(){
-            pintarBarra(PYTHON, 14, 1, intervalJavascript);
+            pintarBarra(PYTHON, 20, 1, intervalJavascript);
         },100);
         const intervalWordpress = setInterval(function(){
-            pintarBarra(JAVA, 16, 2, intervalWordpress);
+            pintarBarra(JAVA, 22, 2, intervalWordpress);
         },100);
         const intervalPhotoshop = setInterval(function () {
-            pintarBarra(SQL, 15, 3, intervalPhotoshop);
+            pintarBarra(SQL, 21, 3, intervalPhotoshop);
         },100);
         const intervalPhp = setInterval(function(){
-            pintarBarra(Gestion, 12, 4, intervalPhp);
+            pintarBarra(Gestion, 18, 4, intervalPhp);
         },100);
         const intervalIlustrator = setInterval(function(){
-            pintarBarra(HTML, 15, 5, intervalIlustrator);
+            pintarBarra(HTML, 21, 5, intervalIlustrator);
         }, 100);
         const intervalJavaS = setInterval(function () {
-            pintarBarra(JavaS, 15, 6, intervalJavaS);
+            pintarBarra(JavaS, 21, 6, intervalJavaS);
         }, 100);
         const intervalElectronica = setInterval(function () {
-            pintarBarra(Electronica, 13, 7, intervalElectronica);
+            pintarBarra(Electronica, 19, 7, intervalElectronica);
         }, 100);
     }
 }
