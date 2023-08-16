@@ -339,28 +339,25 @@ html{
     }
 }
 
-/* Assuming ".cont-barra" is the container for the progress bars */
 .cont-barra {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Adjust alignment as needed */
+    align-items: flex-start; 
   }
   
-  /* Adjust the width of the bar and percentage text */
   .barra {
-    width: 100%; /* Adjust as needed */
+    width: 100%; 
   }
   
-  /* Use media queries to adjust styles for different screen sizes */
   @media (max-width: 768px) {
     .cont-barra {
-      flex-direction: row; /* Display bars horizontally */
+      flex-direction: row;
       align-items: center;
     }
-  
-    /* Adjust width and other styles as needed */
+
     .barra {
-      width: 70%; /* Example width */
+      width: 70%; 
     }
   }
   
+/* carrusel */
