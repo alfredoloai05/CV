@@ -373,7 +373,7 @@ html{
 .content-carrousel{
     width: 100%;
     position: absolute;
-    animation: rotar 10s infinite linear;
+    animation: rotar 20s infinite linear;
     transform-style: preserve-3d;
 }
 
@@ -426,4 +426,19 @@ html{
     }to{
         transform: rotateY(360deg);
     }
+}
+
+.download-cv {
+    padding: 10px 20px;
+    background-color: #1a62f3;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px #05b6fc;
+}
+
+.download-cv:hover {
+    background-color: #ffff;
+    box-shadow: none
 }
