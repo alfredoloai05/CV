@@ -42,11 +42,10 @@ let Gestion = document.getElementById("Gestion");
 crearBarra(Gestion);
 let HTML = document.getElementById("HTML");
 crearBarra(HTML);
-let JavaS = document.getElementById("JavaS");
-crearBarra(JavaS);
-let Electronica = document.getElementById("Electronica");
-crearBarra(Electronica);
-
+let GIT = document.getElementById("GIT");
+crearBarra(GIT);
+let Flask = document.getElementById("Flask");
+crearBarra(Flask);
 
 //Ahora voy a guardar la cantidad de barritas que se van a ir pintando por cada barar
 //para eso utilizo un arreglo, cada posiciòn pertenece a un elemento
@@ -65,10 +64,10 @@ function efectoHabilidades(){
             pintarBarra(C, 19, 0, intervalC);
         },100);
         const intervalJavascript = setInterval(function(){
-            pintarBarra(PYTHON, 20, 1, intervalJavascript);
+            pintarBarra(PYTHON, 22, 1, intervalJavascript);
         },100);
         const intervalWordpress = setInterval(function(){
-            pintarBarra(JAVA, 22, 2, intervalWordpress);
+            pintarBarra(JAVA, 20, 2, intervalWordpress);
         },100);
         const intervalPhotoshop = setInterval(function () {
             pintarBarra(SQL, 21, 3, intervalPhotoshop);
@@ -79,11 +78,11 @@ function efectoHabilidades(){
         const intervalIlustrator = setInterval(function(){
             pintarBarra(HTML, 21, 5, intervalIlustrator);
         }, 100);
-        const intervalJavaS = setInterval(function () {
-            pintarBarra(JavaS, 21, 6, intervalJavaS);
+        const intervalGit = setInterval(function () {
+            pintarBarra(GIT, 21, 6, intervalGit);
         }, 100);
-        const intervalElectronica = setInterval(function () {
-            pintarBarra(Electronica, 19, 7, intervalElectronica);
+        const intervalFlask = setInterval(function () {
+            pintarBarra(Flask, 19, 7, intervalFlask);
         }, 100);
     }
 }
